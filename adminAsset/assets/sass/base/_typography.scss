@@ -1,0 +1,101 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-grey-dark--1;
+}
+
+.heading {
+  &--main {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  &--sub {
+    color: $color-black;
+    font-weight: 500;
+  }
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: $color-blue-dark;
+}
+
+p {
+  color: $color-secondary;
+}
+
+.section {
+  &-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: $color-blue-dark;
+  }
+  &-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $color-text;
+  }
+}
+
+.section-legal {
+  &--content {
+    .card {
+      border-radius: 1rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+      &-title,
+      .legal-title {
+        margin: 2.5rem 0 1.5rem 0;
+
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: $color-blue-dark;
+      }
+
+      &-text,
+      .legal-text,
+      li,
+      a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $color-grey-dark--3;
+      }
+
+      ul {
+        list-style: disc;
+
+        margin-left: 3rem;
+      }
+
+      li {
+        margin: 1.5rem 0;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.feature {
+  &-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: $color-blue-dark;
+  }
+
+  &-content {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $color-text;
+
+    margin-top: 1rem;
+  }
+}

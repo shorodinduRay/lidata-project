@@ -1,0 +1,15 @@
+{
+  "name": "Lidata-fullstack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass adminAsset/assets/sass/style.scss adminAsset/assets/css/style.css -w"
+  },
+  "author": "Shamonti",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.54.5"
+  }
+}
